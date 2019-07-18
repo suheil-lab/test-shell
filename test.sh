@@ -1,4 +1,4 @@
-python -c 'import pty,pty.spawn("bin/bash")'
+python -c 'import pty;pty.spawn("/bin/bash")'
 bash -l
 id
 pwd
